@@ -24,6 +24,20 @@ h3 {
     
 }
 
+h4 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+h5 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 10px;
+}
+}
+
 .menu ul, .menu li {
 	margin: 0;
     padding: 0;
@@ -108,12 +122,8 @@ li:hover ul#submenu {
 
 figcaption {
     font-size: 12px;
-    text-align: right;
-    
-    
+    text-align: right;    
 }
-
-
 
 .txt {
     position: fixed;
@@ -139,7 +149,6 @@ figcaption {
 
 .flex-container > div {
     margin: auto;
-
 }
 
 .flex-container .logo {
@@ -220,4 +229,20 @@ figcaption {
   }
   .third:hover {
     box-shadow: 0 0 10px 0 #30A6E6 inset, 0 0 10px 4px #30A6E6;
+  }
+
+  #qua {
+    display: flex;
+  }
+
+  #qua > div {
+      margin: auto;
+      margin-top: 10px;
+      border: 1px double black;
+      padding: 3px;
+  }
+
+  .ima{
+      max-width: 300px;
+      width: auto;
   }
