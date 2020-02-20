@@ -259,5 +259,19 @@ figcaption {
       width: auto;
   }
 
+  .fotoenvia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border: 1px solid black;
 
-  terminar p os hijos!!!
+  }
+
+  .fotoenvia .sep {
+      margin: auto;
+      padding: 5px;
+      align-items: center;
+  }
