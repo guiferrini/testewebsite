@@ -245,3 +245,19 @@ figcaption {
       max-width: 300px;
       width: auto;
   }
+
+  .padre {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+
+  }
+
+  .hijo {
+      padding: 5px;
+      width: auto;
+  }
+
+
+  terminar p os hijos!!!
